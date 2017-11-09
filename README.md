@@ -1,6 +1,6 @@
 # NATSCI191
 
-This folder contains the code to run experiments for class project
+This folder contains the code to run experiments for the class project.
 
 
 ## Priming task
