@@ -13,3 +13,6 @@ More info on priming can be found here https://en.wikipedia.org/wiki/Priming_(ps
 
 ## Anchor Effect
 
+## Coke vs Pepsi Blind Test
+
+## Conjunction Bias
