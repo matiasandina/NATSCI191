@@ -403,7 +403,7 @@ outputTable.Properties.VariableNames = {'unique_id' 'group' 'keys' 'RT'};
 
 rootPath = cd;
 
-finalPath = strcat(rootPath, '\output\', num2str(unique_id),'_', 'output.txt');
+finalPath = strcat(rootPath, '\output\', num2str(unique_id),'_', 'priming.csv');
 
 writetable(outputTable, finalPath) 
 
