@@ -40,7 +40,13 @@ Here's the text that was presented for the experiment:
 
 If event A includes event B it means that the probability of B cannot be greater than the probability of A, right? Well, our brains not always function that way. Solving the probability equations on the fly is not as straightforward as we would like and we fall for things that appear to be true rather than crunching the numbers.
 
+If two events are overlapping, the probability that we are trying to estimate is this one:
+
 ![Intersection prob](http://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Clarge%20P%28A%5Ccap%20B%29%20%5Cquad%20%3D%20%5Cquad%20P%28A%29%20*%20P%28B%7CA%29)
+
+And if we want to know the probability of one given the other is true:
+
+![A given B](https://wikimedia.org/api/rest_v1/media/math/render/svg/c7f0ff7bcd50dd11514f9f02b1273dab360a4cef)
 
 More info about conjunction fallacy can be found here:
 https://en.wikipedia.org/wiki/Conjunction_fallacy
