@@ -38,6 +38,9 @@ Here's the text that was presented for the experiment:
 
 ## Conjunction Fallacy
 
-If event A includes event B it means that the probability of B cannot be greater than the probability of A, right? Well, our brains not always function that way. Solving the following equation on the fly is not as straightforward as we would like and we fall for things that appear to be true rather than crunching the numbers.
+If event A includes event B it means that the probability of B cannot be greater than the probability of A, right? Well, our brains not always function that way. Solving the probability equations on the fly is not as straightforward as we would like and we fall for things that appear to be true rather than crunching the numbers.
 
-![](http://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Clarge%20P%28A%7CB%29%20%5Cquad%20%5Calpha%20%5Cquad%20P%28A%29%20*%20P%28B%7CA%29)
+![Intersection prob](http://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Clarge%20P%28A%5Ccap%20B%29%20%5Cquad%20%3D%20%5Cquad%20P%28A%29%20*%20P%28B%7CA%29)
+
+More info about conjunction fallacy can be found here:
+https://en.wikipedia.org/wiki/Conjunction_fallacy
