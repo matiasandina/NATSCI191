@@ -38,4 +38,9 @@ Here's the text that was presented for the experiment:
 
 ## Conjunction Fallacy
 
-$ P(A|B) alpha P(A) * P(B|A) $
+\begin{equation}
+
+P(A|B) = P(A) * P(B|A) 
+
+\end{equation}
+
