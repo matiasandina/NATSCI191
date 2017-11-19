@@ -19,7 +19,10 @@ read_priming_task <- function(folder, task_pattern){
 
     print(paste("trying to read", i))
     
-    tidy_a <- read.csv(i, stringsAsFactors=F)
+    
+    # We define col classes so that numeric IDs and keystrokes get parsed correctly
+    tidy_a <- read.csv(i, stringsAsFactors=F,
+                       colClasses = c("character", "numeric", "character", "numeric"))
     
     
     # get a trialID variable 
