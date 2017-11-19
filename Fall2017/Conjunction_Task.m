@@ -25,7 +25,7 @@ myRT = [];
 % We get hour matrix with zeros
 output = num2cell(zeros(2));
 
-output(:,1) = num2cell(unique_id);
+output(:,1) = {unique_id};
 output(:,2) = num2cell(mygroup);
 
 
