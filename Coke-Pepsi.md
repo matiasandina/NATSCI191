@@ -35,9 +35,44 @@ Information is available in the Spreadsheet Named "2017-NATSCI191-Coke-Preferenc
 
 # Excersices 
 
-First we need to do some treatment of the data. You will notice that
+First we need to do some treatment of the data. You will notice that "A" or "B" are not indicative of "Coke" or "Pepsi" because positions were switched. We can use a little trick to check. If the `D` (real coke position) values are the same as the `E` (what they liked most), that means that the they like "Coke" better.
 
 ```
 1. Go to "2017-NATSCI191-Coke-Preferences" spreadsheet.
-1. Step on the *H2* cell and insert this formula "=IF(D8=E8, "Coke", "Pepsi")" 
+1. Step on the *H2* cell and insert this formula "=IF(D2=E2, "Coke", "Pepsi")"
+1. Drag down the formula so that it applies to all the rows in study
+1. Step on *H1* and name this column "really.likes"
 ```
+We now do something similar to see if subjects can or cannot tell for real.
+
+```
+1. Step on the *I2* cell and insert this formula "=IF(G2=D2, "Can really tell", "Cannot really tell")"
+1. Drag down the formula so that it applies to all the rows in study.
+1. Name that column "can.tell"
+```
+
+We also want to know who switched from what they declared to their blind test preference. To do that, we need some recoding of the variables and a little trick to add noise to the data.
+
+```
+1. Step on *J2* and insert the following formula "=IF(C8="No Preference", 0, IF(C8="Coke", 1, 2))"
+1. Step on *K2* and insert the following formula "=IF(H8="Coke", 1, 2)"
+1. Select both *J2 and H2* and drag them down so that the formula applies to all the rows of interest
+1. Step on *L2* and insert the following formula "=J2+(RAND()/10)"
+1. Step on *M2* and insert the following formula "=K8+(RAND()/10)"
+1. Select both *L2* and *M2* and drag them down so that the formula applies to all of the rows of interest.
+```
+
+> If you are curious about why we add the noise, the idea is to separate the values, if all Coke = 1, we cannot see them on a graph. Thus, we add a little random noise (`+RAND()/10`) so that we get 1.01, 1.05, 1.09 and other similar numbers that are really close to 1 but not exactly (also see next section).
+
+## Plots
+
+Let's do some plots!
+
+```
+1. Make piecharts of the following columns: preference, really.likes, think.can.tell, and can.tell.
+1. Make a line plot of the two columns *L2* and *M2*. 
+```
+
+Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)
+
+
