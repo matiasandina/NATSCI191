@@ -13,9 +13,7 @@ For this experiment, subjects received the following 3 questions:
 
 # The Data
 
-The information is on a spreadsheet
-
-Other source of information is `delayed-table.csv`. Here you will find answers aggregated by group.
+The raw information is on a `.csv` file called `delayed-trials.csv`. You can open this file on Excel. Other source of information is `delayed-table.csv`. Here you will find answers aggregated by group.
 
 # Exercises
 
@@ -25,8 +23,8 @@ Second we want to do a control, we would expect the groups to take equal decisio
 Let's do some plots!
 
 ```
-1. Open the spreadsheet 
-1. Make 3 piecharts with the answers to the 3 questions
+1. Open the "delayed-trials.csv" 
+1. Make 3 piecharts or stacked barplots with the answers to the 3 questions
 1. Open "delayed-table.csv"
-1. Make 3 lineplots showing if belonging to Group 1 or Group 2 influenced the decision 
+1. Make 3 lineplots showing if belonging to Group 1 or Group 2 influenced the decision on each of the questions
 ```
