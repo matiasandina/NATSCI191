@@ -40,19 +40,39 @@ Information for this task will be found on `conjunction_all_trials.csv` and `con
 
 # Exercises
 
-We have to give meaning to the keystrokes. "1" or "2" have no meaning unless we know what the actual answer was.
-
->>>> CONTINUE HERE RECODING
-
-Trial 1 Group 1
-
-=IF(AND(A2=1,C2=1),"Linda is a bankteller","Linda is a bankteller and is active on the feminist movement")
-
-=IF(AND(A4=1,C4=1),"Queen of Hearts","3 Queens")
-
+## Doing the math
 
 ```
 1. Do the math for the likelihood of getting the special Queen and 2 other cards. Assume No reposition of cards to the deck.
 1. Do the math for the likelihood of getting the 3 special Queens. Assume No reposition of cards to the deck.
-1. Make a bargraph that allows you to see how  
 ```
+
+## Coding into meaningful Variables
+
+We have to give meaning to the keystrokes. "1" or "2" have no meaning unless we know what the actual answer was.
+
+## Group 1
+
+```
+1. Insert a new column between the keys and the n, this should be now your *D* column
+1. Step on cell *D2* and insert the following formula: 
+"=IF(AND(A2=1,C2=1),"Linda is a bankteller","Linda is a bankteller and is active on the feminist movement")"
+1. Drag down to *D3*
+1. Step on *D4* and insert the following formula: "=IF(AND(A4=1,C4=1),"Queen of Hearts","3 Queens")"
+1. Drag down to *D5*
+```
+You will now have the actual answers to the questions for group 1
+
+## Group 2
+
+Group 2 received the reversed order. 
+
+```
+1. Use the formulas on the last step to adapt them to group 2 values
+```
+Now, let's make some plots!
+
+```
+1. Make stacked barplots to show the answers to each one of the questions. You should have 4 graphs (2 questions, 2 groups).
+```
+
