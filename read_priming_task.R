@@ -41,9 +41,9 @@ read_priming_task <- function(folder, task_pattern){
   # count by group and trial ID
   count_trials <- all_trials %>% group_by(group, trialID) %>% count(keys)
 
-  write.csv(all_trials, paste0(mypath, "/all_trials.csv"), row.names=FALSE)
+  write.csv(all_trials, paste0(mypath, "/", task_pattern, "_all_trials.csv"), row.names=FALSE)
   
-  write.csv(count_trials, paste0(mypath, "/count_trials.csv"), row.names=FALSE)
+  write.csv(count_trials, paste0(mypath, "/", task_pattern, "_count_trials.csv"), row.names=FALSE)
   
   
 }
