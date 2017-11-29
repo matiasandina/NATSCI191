@@ -10,7 +10,7 @@ For this experiment, subjects were presented with images and asked to complete t
 
 Group 1 saw this picture of a doctor
 
-![](/Fall2017/doctor.jpg)
+![](NATSCI191/Fall2017/images/doctor.jpg)
 
 
 # The Data
