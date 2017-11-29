@@ -15,12 +15,18 @@ For this experiment, subjects received the following 3 questions:
 
 The information is on a spreadsheet
 
+Other source of information is `delayed-table.csv`. Here you will find answers aggregated by group.
 
 # Exercises
+
+First, we want to take a look at how people decide, can they wait for a greater reward or not?
+Second we want to do a control, we would expect the groups to take equal decisions, after all they were the same questions. Is this the case?
 
 Let's do some plots!
 
 ```
+1. Open the spreadsheet 
 1. Make 3 piecharts with the answers to the 3 questions
-1. Make Boxplots showing if belonging to Group 1 or Group 2 influenced the decision 
+1. Open "delayed-table.csv"
+1. Make 3 lineplots showing if belonging to Group 1 or Group 2 influenced the decision 
 ```
