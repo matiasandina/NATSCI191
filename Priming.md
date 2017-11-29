@@ -25,7 +25,7 @@ The expected answer for Group 1 is "Nurse" while Group 2 is expected to answer "
 | Trial        | Priming Group 1 vs Group 2          | Task           |
 | ------------- |:-------------:|:-------------:|
 | 1      |    Doctor vs Wallet  | `_ U R S E` | 
-| 2      |    Clock vs Fruit | `_ O O L` |
+| 2      |    Clock vs Fruit | `_ O U R` |
 | 3      |    Beach vs  Bike | `_ O O L` |
 | 4      |    Bonfire vs Knife | `_ E A T` |
 
@@ -39,3 +39,9 @@ The information will be found on a file called `priming_counts_trials.csv`. This
 * **n** = number of times each letter was pressed (comes from data aggregation).
 
 # Exercises
+
+```
+1. Insert a new column between the *keys* and *n* columns
+1. Complete the words that would be formed using the first letter as input. ('n' would go into 'nurse' for trial 1)
+1. Make 4 graphs (1 per trial) showing the difference in response for group 1 and group 2 in the same graph. Choose either a bargraph or a piechart.
+```
