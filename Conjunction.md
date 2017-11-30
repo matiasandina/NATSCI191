@@ -75,4 +75,5 @@ Now, let's make some plots!
 ```
 1. Make stacked barplots to show the answers to each one of the questions. You should have 4 graphs (2 questions, 2 groups).
 ```
+Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)
 

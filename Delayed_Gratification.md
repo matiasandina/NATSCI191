@@ -28,3 +28,5 @@ Let's do some plots!
 1. Open "delayed-table.csv"
 1. Make 3 lineplots showing if belonging to Group 1 or Group 2 influenced the decision on each of the questions
 ```
+
+Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)

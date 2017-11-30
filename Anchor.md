@@ -57,3 +57,4 @@ We are also interested in seeing the effect of the anchor. We can calculate an `
 1. Make Boxplots again but with these new error columns.
 ```
 
+Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)

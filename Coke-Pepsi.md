@@ -22,7 +22,7 @@ Subjects came to perform a blind test where they were presented with two cups, o
 
 # The Data
 
-Information is available in the Spreadsheet Named "2017-NATSCI191-Coke-Preferences". There, you will find the following columns: **ID,	Group,	preference,	real.coke,	likes,	think.can.tell,	guess.coke**. Metadata about the columns can be found below:
+Information is available in the file named `2017-NATSCI191-Coke-Preferences.csv`. There, you will find the following columns: **ID,	Group,	preference,	real.coke,	likes,	think.can.tell,	guess.coke**. Metadata about the columns can be found below:
 
 * ID = Subjects ID across all experiments, a 3 number digit (except for 2 subjects that have 5 digit IDs).
 * Group = Group to what the subjects were randomly assigned to, takes values 1 or 2.
@@ -38,7 +38,7 @@ Information is available in the Spreadsheet Named "2017-NATSCI191-Coke-Preferenc
 First we need to do some treatment of the data. You will notice that "A" or "B" are not indicative of "Coke" or "Pepsi" because positions were switched. We can use a little trick to check. If the `D` (real coke position) values are the same as the `E` (what they liked most), that means that the they like "Coke" better.
 
 ```
-1. Go to "2017-NATSCI191-Coke-Preferences" spreadsheet.
+1. Go to "2017-NATSCI191-Coke-Preferences.csv".
 1. Step on the *H2* cell and insert this formula "=IF(D2=E2, "Coke", "Pepsi")"
 1. Drag down the formula so that it applies to all the rows in study
 1. Step on *H1* and name this column "really.likes"

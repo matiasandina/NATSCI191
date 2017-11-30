@@ -45,3 +45,5 @@ The information will be found on a file called `priming_counts_trials.csv`. This
 1. Complete the words that would be formed using the first letter as input. ('n' would go into 'nurse' for trial 1)
 1. Make 4 graphs (1 per trial) showing the difference in response for group 1 and group 2 in the same graph. Choose either a bargraph or a piechart.
 ```
+
+Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)
