@@ -22,6 +22,10 @@ Subjects came to perform a blind test where they were presented with two cups, o
 
 # The Data
 
+## Getting the data in a table
+
+Go to the `data` folder inside `Fall2017`. Click on the files of interest. Go to `Raw` and copy the data. Go to a spreadsheet and paste the data into the first cell (A1). Go to the `data` tab on Excel/Google Spreadsheets. You will see an option that gets you towards `Text into Columns`.
+
 Information is available in the file named `2017-NATSCI191-Coke-Preferences.csv`. There, you will find the following columns: **ID,	Group,	preference,	real.coke,	likes,	think.can.tell,	guess.coke**. Metadata about the columns can be found below:
 
 * ID = Subjects ID across all experiments, a 3 number digit (except for 2 subjects that have 5 digit IDs).
@@ -54,11 +58,11 @@ We now do something similar to see if subjects can or cannot tell for real.
 We also want to know who switched from what they declared to their blind test preference. To do that, we need some recoding of the variables and a little trick to add noise to the data.
 
 ```
-1. Step on *J2* and insert the following formula "=IF(C8="No Preference", 0, IF(C8="Coke", 1, 2))"
-1. Step on *K2* and insert the following formula "=IF(H8="Coke", 1, 2)"
+1. Step on *J2* and insert the following formula "=IF(C2="No Preference", 0, IF(C2="Coke", 1, 2))"
+1. Step on *K2* and insert the following formula "=IF(H2="Coke", 1, 2)"
 1. Select both *J2 and H2* and drag them down so that the formula applies to all the rows of interest
 1. Step on *L2* and insert the following formula "=J2+(RAND()/10)"
-1. Step on *M2* and insert the following formula "=K8+(RAND()/10)"
+1. Step on *M2* and insert the following formula "=K2+(RAND()/10)"
 1. Select both *L2* and *M2* and drag them down so that the formula applies to all of the rows of interest.
 ```
 

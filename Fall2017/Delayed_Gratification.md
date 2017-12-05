@@ -13,6 +13,10 @@ For this experiment, subjects received the following 3 questions:
 
 # The Data
 
+## Getting the data in a table
+
+Go to the `data` folder inside `Fall2017`. Click on the files of interest. Go to `Raw` and copy the data. Go to a spreadsheet and paste the data into the first cell (A1). Go to the `data` tab on Excel/Google Spreadsheets. You will see an option that gets you towards `Text into Columns`.
+
 The raw information is on a `.csv` file called `delayed-trials.csv`. You can open this file on Excel. Other source of information is `delayed-table.csv`. Here you will find answers aggregated by group.
 
 # Exercises

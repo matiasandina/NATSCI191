@@ -20,6 +20,10 @@ Additionally, they were presented an artificial conjunction problem. The questio
 
 Information for this task will be found on `conjunction_all_trials.csv` and `conjunction_count_trials.csv`.
 
+## Getting the data in a table
+
+Go to the `data` folder inside `Fall2017`. Click on the files of interest. Go to `Raw` and copy the data. Go to a spreadsheet and paste the data into the first cell (A1). Go to the `data` tab on Excel/Google Spreadsheets. You will see an option that gets you towards `Text into Columns`.
+
 `conjunction_all_trials.csv` has the following variables: **"unique_id,	group,	keys,	RT,	trialID"**
 
 * **unique_id** = Subjects ID across all experiments, a 3 number digit (except for 2 subjects that have 5 digit IDs).
@@ -46,6 +50,8 @@ Information for this task will be found on `conjunction_all_trials.csv` and `con
 1. Do the math for the likelihood of getting the special Queen and 2 other cards. Assume No reposition of cards to the deck.
 1. Do the math for the likelihood of getting the 3 special Queens. Assume No reposition of cards to the deck.
 ```
+Assume You might find some help about probability calculation in the first answer in this link. The example is with 4 Kings instead of 3 Queens, so it needs some adjustment. [See it here](https://math.stackexchange.com/questions/438336/if-three-cards-are-selected-at-random-without-replacement-what-is-the-probabili). You can also find help for the "at least one queen" problem [here](https://www.quora.com/Three-cards-are-pulled-from-a-deck-of-52-cards-What-is-the-probability-of-getting-at-least-one-club).
+
 
 ## Coding into meaningful Variables
 

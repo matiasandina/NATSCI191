@@ -31,6 +31,10 @@ The expected answer for Group 1 is "Nurse" while Group 2 is expected to answer "
 
 # The Data
 
+## Getting the data in a table
+
+Go to the `data` folder inside `Fall2017`. Click on the files of interest. Go to `Raw` and copy the data. Go to a spreadsheet and paste the data into the first cell (A1). Go to the `data` tab on Excel/Google Spreadsheets. You will see an option that gets you towards `Text into Columns`.
+
 The information will be found on a file called `priming_counts_trials.csv`. This can be opened with Excel. The matrix has 4 variables named **"group","trialID","keys","n"**
 
 * **group** = Group to what the subjects were randomly assigned to, takes values 1 or 2.
