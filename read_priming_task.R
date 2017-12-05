@@ -39,7 +39,8 @@ read_priming_task <- function(folder, task_pattern){
   all_trials <- dplyr::bind_rows(li)  
   
   # count by group and trial ID
-  count_trials <- all_trials %>% group_by(group, trialID) %>% count(keys)
+  count_trials <- all_trials %>% group_by(group, trialID) %>% count(keys) %>% 
+    tidyr::complete(keys, fill = list(n = 0L))
 
   write.csv(all_trials, paste0(mypath, "/", task_pattern, "_all_trials.csv"), row.names=FALSE)
   
