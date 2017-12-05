@@ -58,7 +58,13 @@ We are also interested in seeing the effect of the anchor. We can calculate an `
 ```
 1. Create extra columns to hold the value of the anchors per grop.
 1. Calculate the error in each group for both questions. 
+1. Sort by group column (you should have all group 1 first and group 2 after).
 1. Make Boxplots again but with these new error columns.
 ```
+
+## Advice on Boxplots. 
+
+Use Excel instead of Google Sheets. Select the data for the Group 1, then go to select data, add series. Add the range with the data for group 2.  
+If you are using a Mac, [this video can help](https://www.youtube.com/watch?v=A35KKhqJRPw).
 
 Choose colors that sound appropriate. Remember that color blind people have difficulties distinguishing some color combinations, more info [here](https://www.robotswillkillusall.org/static/flabpal-colorblind.png)
